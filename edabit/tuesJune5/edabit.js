@@ -70,3 +70,16 @@ const nameShuffle = (str) => {
 const getLastItem = (arr) => {
   return arr[arr.length -1];
 };
+
+//////////////////////////
+// Exercise 7
+// Create a function that takes two strings and returns true if the first argument ends with the second argument;
+// otherewise return false .
+
+const checkEnding = (str1, str2) => {
+  if (str1.endsWith(str2)) {
+    return true
+  } else {
+    return false
+  }
+}
