@@ -63,3 +63,10 @@ const nameShuffle = (str) => {
   return str.split(" ").reverse().join(" ");
 };
 
+//////////////////////////
+// Exercise 6
+// Create a function that accepts an array and returns the last item in the array.
+
+const getLastItem = (arr) => {
+  return arr[arr.length -1];
+};
