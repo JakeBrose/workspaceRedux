@@ -22,3 +22,14 @@ const isFourLetters = (arr) => {
     return word.length === 4;
   })
 };
+
+
+/////////////////
+// Exercise 3 //
+//Create a function that takes an array of positive numbers and strings
+// and returns a new array without the strings. In other words,
+// remove all strings from an array of elements.
+
+const filterArray = (arr) => {
+  return arr.filter(number => typeof number === 'number')
+};
