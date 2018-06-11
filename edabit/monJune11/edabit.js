@@ -10,8 +10,15 @@ const lessThanOrEqualToZero = (num) => {
   } else {
     return false
   }
-}
+};
 
 /////////////////
 // Exercise 2 //
-//
+// Create a function that takes an array of strings.
+// Return all words in the array that are exactly four letters.
+
+const isFourLetters = (arr) => {
+  return arr.filter( (word) => {
+    return word.length === 4;
+  })
+};
