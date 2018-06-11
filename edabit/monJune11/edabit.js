@@ -5,11 +5,7 @@
 // otherwise return false.
 
 const lessThanOrEqualToZero = (num) => {
-  if (num <= 0) {
-    return true
-  } else {
-    return false
-  }
+  return (num <= 0)
 };
 
 /////////////////
